@@ -1,19 +1,3 @@
-<!-- Desafio: O modelo boxer
-Adicione bordas
-Essa página web mostra uma galeria de fotos de cachorros da raça boxer. Nesse 
-primeiro passo, adicione uma borda a todas as fotos. Se puder, tente fazer com 
-que elas pareçam a moldura das fotos. 
-
-Adicione margem
-As fotos parecem estar muito próximas umas das outras. Adicione margem a elas,
-de todos os lados, ou apenas nos lados que as separam.
-
-Adicione espaçamento
-As fotos estão muito próximas ao lado da div que representa a galeria, e isso 
-parece estranho. Adicione espaçamento em torno de todos os lados da div da galeria, 
-para que a aparência fique melhor.
--->
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -29,22 +13,29 @@ para que a aparência fique melhor.
             }
             .photo {
                 width: 200px;
-								border: 2px ridge blueviolet;
-								margin-left: 8em;
+								border: 10px ridge blueviolet;
+								margin-left: 40%;
+								border-radius: 45%;
             }
+
+						.title {
+							text-align: center;
+						}
         </style>
     </head>
     <body>
 
-        <h1>Boxers are beautiful?</h1>
+        <h1 class="title">Agrupando elementos</h1>
         
         <div class="photo-gallery">
-        
-            <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-getting-tan.png">
+						<h3 class="title">Desafio: O modelo boxer</h3>
+            <a href="./index1.html"><img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-getting-tan.png"></a>
             
-            <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-laying-down.png">
+						<h3 class="title">Desafio: Posicionamento do planeta</h3>
+            <a href="./index2.html"><img class="photo" src="https://www.kasandbox.org/programming-images/avatars/mr-pink.png"></a>
             
-            <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-wagging-tongue.png">
+						<h3 class="title">Desafio: Nuvens flutuantes</h3>
+            <a href="./index3.html"><img class="photo" src="https://www.kasandbox.org/programming-images/landscapes/clouds-from-plane.png"></a>
             
         </div>
         
