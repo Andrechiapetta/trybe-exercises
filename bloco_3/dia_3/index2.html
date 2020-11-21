@@ -25,26 +25,31 @@ Agora, use uma propriedade z-index para garantir que a saudação sempre apareç
                 font-family: "Comic Sans MS", fantasy;
                 padding: 5px;
                 width: 262px;
-								position: absolute;
-								top: 30px;
-								left: 150px;
-								z-index: 1;
+                position: absolute;
+                top: 30px;
+                left: 150px;
+                z-index: 1;
             }
             
             #creature {
                 position: absolute;
-								top: 80px;
-								left: 40px;
-								z-index: 2;
+                top: 100px;
+                left: 150px;
+                z-index: 2;
             }
+
+            .button {
+                border: 5px ridge blueviolet;
+            }
+            
         </style>
     </head>
     <body>
-        
-        <img id="planet" src="https://www.kasandbox.org/programming-images/space/planet.png" width="300">
+        <h1><a class="button" href="./index.html">Voltar</a></h1>
         
         <div id="greeting">
             <p>Hello! Welcome to position planet!</p>
+            <img id="planet" src="https://www.kasandbox.org/programming-images/space/planet.png" width="300">
         </div>
         
         <img id="creature" src="https://www.kasandbox.org/programming-images/avatars/mr-pink.png">
