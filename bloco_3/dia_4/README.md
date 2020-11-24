@@ -1,3 +1,6 @@
+[www.bloco3.dia_4.com](https://andrechiapetta.github.io/trybe-exercises/bloco_3/dia_4/exercise_1.html)
+
+
 **Exercício 3.4 - Parte I**_
  - Adicione um cabeçalho na página contendo o título Soco a 80km/h: Conheça o Stomatopoda.
 
