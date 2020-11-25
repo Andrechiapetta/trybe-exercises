@@ -27,3 +27,15 @@ function modulo () {
   let b = 5;
   alert('function modulo () {\n  let a = 10;\n  let b = 5;\n  a % b = ' + (a % b) + '\n}');
 }
+
+function maiorDeDois () {
+  let maior;
+  let a = 10;
+  let b = 5;
+  if (a > b) {
+    maior = a;
+  } else {
+    maior = b;    
+  }
+  alert('function maiorDeDois () {\n  let maior;\n  let a = 10;\n  let b = 5;\n  if (a > b) {\n  let maior = a;\n}  else {\n  let maior = b;\n}\nMAIOR = ' + maior);
+}
