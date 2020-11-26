@@ -53,7 +53,7 @@ function maiorDeTres() {
   } else {
     maior = c;
   }
-  alert('function maiorDeTres() {\n  let maior;\n  let a = 10;\n  let b = 5;\n  let c = 8;\n\n  if (a > b && a > c) {\n    maior = a;\n  } else if (b > c) {\n    maior = b;\n  } else {\n    maior = c;\n  }\n  console.log(\'O maior número entre \' + a + \' , \' + b + \' e \' + c + \' é o \' + maior);\n}');
+  alert('function maiorDeTres() {\n  let maior;\n  let a = 10;\n  let b = 5;\n  let c = 8;\n\n  if (a > b && a > c) {\n    maior = a;\n  } else if (b > c) {\n    maior = b;\n  } else {\n    maior = c;\n  }\n  console.log(\'O maior número entre \' + a + \' , \' + b + \' e \' + c + \' é o \' + maior);\n}\n console... O maior número entre 10 , 5 e 8 é o ' + maior);
 }
 
 function positiveNegativeZero() {
@@ -64,5 +64,18 @@ function positiveNegativeZero() {
   } else if (number < 0) {
     returnNum = 'negative';
   }
-  alert('function positiveNegativeZero() {\n  let number = 10;\n  let returnNum = \'zero\';\n\n  if (number > 0) {\n    returnNum = \'positive\';\n  } else if (number < 0) {\n    returnNum = \'negative\'\n  }\n  console.log(\'O número é \' + returnNum);\n}')
+  alert('function positiveNegativeZero() {\n  let number = 10;\n  let returnNum = \'zero\';\n\n  if (number > 0) {\n    returnNum = \'positive\';\n  } else if (number < 0) {\n    returnNum = \'negative\'\n  }\n  console.log(\'O número é \' + returnNum);\n}\n console... O número é' + returnNum);
+}
+
+function triangulo() {
+  let ang1 = 90;
+  let ang2 = 45;
+  let ang3 = 45;
+  let triangulo = false;
+  let soma = ang1 + ang2 + ang3;
+
+  if (soma == 180) {
+    triangulo = true;
+  }
+  alert('function triangulo() {\n  let ang1 = 90;\n  let ang2 = 45;\n  let ang3 = 45;\n  let triangulo = false;\n  let soma = ang1 + ang2 + ang3;\n\n  if (soma == 180) {\n      triangulo = true;\n    }\n    conaole.log(triangulo)\n}\n console... ' + triangulo);
 }
