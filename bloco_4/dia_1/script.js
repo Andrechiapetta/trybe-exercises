@@ -151,3 +151,18 @@ function verificaSeTemImpar() {
   console.log(temImpar);
   alert('let num1 = 4;\nlet num2 = 2;\nlet num3 = 6;\nlet temPar = false;\n\nif (num1 % 2 != 0 || num2 % 2 != 0 || num3 % 2 != 0) {\n  temImpar = true;\n}\nconsole.log(temImpar);\n console... ' + temImpar);
 }
+
+function verificaLucro() {
+  let custo = 2;
+  let valorDeVenda = 10;
+  let imposto = 0.20;
+  let quantidadeProdutoVendido = 10;
+
+  if (custo < 0 || valorDeVenda < 0) {
+    alert('Erro não aceitamos valor de entrada menor que 0');
+  } else {
+    let custoTotal = custo + (custo * imposto);
+    let lucro = valorDeVenda - custoTotal;
+    alert(`A Empresa vendeu ${quantidadeProdutoVendido} produtos e terá um lucro de ${lucro}`)
+  }
+}
