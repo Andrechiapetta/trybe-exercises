@@ -79,3 +79,35 @@ function triangulo() {
   }
   alert('function triangulo() {\n  let ang1 = 90;\n  let ang2 = 45;\n  let ang3 = 45;\n  let triangulo = false;\n  let soma = ang1 + ang2 + ang3;\n\n  if (soma == 180) {\n      triangulo = true;\n    }\n    conaole.log(triangulo)\n}\n console... ' + triangulo);
 }
+
+function xadrez() {
+  let piece = 'cavalos';
+
+  switch (piece.toLowerCase()) {
+    case 'peão':
+    case 'peões':
+      alert('Peça escolhida = (' + piece + ') Se movimenta uma casa para frente, caso seja o primeiro movimento, pode se mover duas casas, seu ataque deve ser feito na diagonal.');
+      break;
+    case 'torre':
+    case 'torres':
+      alert('Peça escolhida = (' + piece + ') Se movimenta na vertical ou horizontal, sem restrição de quantidade de casas.');
+    break;
+    case 'cavalo':
+    case 'cavalos':
+      alert('Peça escolhida = (' + piece + ') Se movimenta duas casas nas vertical ou horizontal, e uma casa no sentido perpendicular àquele.');
+      break;
+    case 'bispo':
+    case 'bispos':
+      alert('Peça escolhida = (' + piece + ') Se movimenta no sentido diagonal, sem restrição de quantidade de casas.');
+    break;
+    case 'dama':
+    case 'rainha':
+      alert('Peça escolhida = (' + piece + ') Se movimenta de forma livre, sem restrição de direção ou quantidade de casas.');
+      break;
+    case 'rei':
+      alert('Peça escolhida = (' + piece + ') Se movimenta uma casa em qualquer direção.');
+    break;
+    default:
+    alert(`Erro a peça (` + piece + ') não existe.');
+  }
+}
