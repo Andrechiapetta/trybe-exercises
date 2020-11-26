@@ -138,3 +138,16 @@ function verificaSeTemPar() {
   console.log(temPar);
   alert('let num1 = 1;\nlet num2 = 2;\nlet num3 = 3;\nlet temPar = false;\n\nif (num1 % 2 == 0 || num2 % 2 == 0 || num3 % 2 == 0) {\n  temPar = true;\n}\nconsole.log(temPar);\n console... ' + temPar);
 }
+
+function verificaSeTemImpar() {
+  let num1 = 4;
+  let num2 = 2;
+  let num3 = 6;
+  let temImpar = false;
+
+  if (num1 % 2 != 0 || num2 % 2 != 0 || num3 % 2 != 0) {
+    temImpar = true;
+  }
+  console.log(temImpar);
+  alert('let num1 = 4;\nlet num2 = 2;\nlet num3 = 6;\nlet temPar = false;\n\nif (num1 % 2 != 0 || num2 % 2 != 0 || num3 % 2 != 0) {\n  temImpar = true;\n}\nconsole.log(temImpar);\n console... ' + temImpar);
+}
