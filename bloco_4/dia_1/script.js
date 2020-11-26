@@ -37,5 +37,21 @@ function maiorDeDois () {
   } else {
     maior = b;    
   }
-  alert('function maiorDeDois () {\n  let maior;\n  let a = 10;\n  let b = 5;\n  if (a > b) {\n  let maior = a;\n}  else {\n  let maior = b;\n}\nMAIOR = ' + maior);
+  alert('function maiorDeDois () {\n  let maior;\n  let a = 10;\n  let b = 5;\n\n  if (a > b) {\n    let maior = a;\n}  else {\n    let maior = b;\n}\nO maior número entre ' + a +  ' e ' + b + ' é o ' + maior);
+}
+
+function maiorDeTres () {
+  let maior;
+  let a = 10;
+  let b = 5;
+  let c = 8;
+  
+  if (a > b && a > c) {
+    maior = a;
+  } else if (b > c) {
+    maior = b;
+  } else {
+    maior = c;
+  }
+  alert('function maiorDeTres () {\n  let maior;\n  let a = 10;\n  let b = 5;\n  let c = 8;\n\n  if (a > b && a > c) {\n    maior = a;\n  } else if (b > c) {\n    maior = b;\n} else {\n  maior = c;\n}\nO maior número entre ' + a + ', ' + b + ' e ' + c + ' é o ' + maior);
 }
