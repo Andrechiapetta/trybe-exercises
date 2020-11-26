@@ -124,4 +124,17 @@ function porcentagemEmConceitos() {
     }
     notaBase -= 10;
   }
-}  
+}
+
+function verificaSeTemPar() {
+  let num1 = 1;
+  let num2 = 2;
+  let num3 = 3;
+  let temPar = false;
+
+  if (num1 % 2 == 0 || num2 % 2 == 0 || num3 % 2 == 0) {
+    temPar = true;
+  }
+  console.log(temPar);
+  alert('let num1 = 1;\nlet num2 = 2;\nlet num3 = 3;\nlet temPar = false;\n\nif (num1 % 2 == 0 || num2 % 2 == 0 || num3 % 2 == 0) {\n  temPar = true;\n}\nconsole.log(temPar);\n console... ' + temPar);
+}
