@@ -111,3 +111,17 @@ function xadrez() {
     alert(`Erro a peça (` + piece + ') não existe.');
   }
 }
+
+function porcentagemEmConceitos() {
+  let notaPorcentagem = 90;
+  let notaLetras = ['A' , 'B' , 'C' , 'D' , 'E' , 'F'];
+  let notaBase = 90;
+
+  for (let i = 0; i < notaLetras.length; i += 1) {
+    if (notaPorcentagem >= notaBase) {
+      alert('let notaPorcentagem = 90\nlet notaLetras = [\'A\', \'B\' , \'C\' , \'D\' , \'E\' , \'F\']\nlet notaBase = 90;\n\nfor (let i = 0; i < notaLetras.length; i += 1) {\n  if (notaPorcentagem >= notaBase) {\n    console.log(notaLetras[i]);\n    break;\n  }\n  notaBase -= 10;\n}\n console... ' + notaLetras[i]);
+      break;
+    }
+    notaBase -= 10;
+  }
+}  
