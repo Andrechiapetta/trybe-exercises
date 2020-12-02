@@ -44,7 +44,7 @@
         - document.getElementById()
         - document.getElementsByClassName()
         - document.getElementsByTagName()
-        5. Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+        
         6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
 
@@ -72,10 +72,18 @@
           document.getElementsByTagName('h1')[0].innerText = text;
         }  
 
+        // 5. Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+
+        function upperCaseParagraph() {
+          let string = document.getElementsByTagName('p')[1].innerText.toUpperCase();
+          document.getElementsByTagName('p')[1].innerText = string;
+        }  
+
         changeText();
         changeBackgroundColorMainContent('rgb(76,164,109)')
         changeBackgroundColorCenterContent('white');
         changeTitle('Exercício 5.1 - JavaScript');
+        upperCaseParagraph();
     </script>
   </body>
 </html>
