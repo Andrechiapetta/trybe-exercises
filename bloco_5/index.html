@@ -44,8 +44,6 @@
         - document.getElementById()
         - document.getElementsByClassName()
         - document.getElementsByTagName()
-        
-        6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
 
         // 1. Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
@@ -79,11 +77,22 @@
           document.getElementsByTagName('p')[1].innerText = string;
         }  
 
+        // 6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+
+          function consoleAllParagraph() {
+            let paragraph = document.getElementsByTagName('p');
+            for (text of paragraph) {
+              console.log(text.innerText);
+            }
+          }
+
         changeText();
         changeBackgroundColorMainContent('rgb(76,164,109)')
         changeBackgroundColorCenterContent('white');
         changeTitle('Exercício 5.1 - JavaScript');
         upperCaseParagraph();
+        consoleAllParagraph();
+
     </script>
   </body>
 </html>
