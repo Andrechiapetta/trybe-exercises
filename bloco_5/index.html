@@ -44,7 +44,6 @@
         - document.getElementById()
         - document.getElementsByClassName()
         - document.getElementsByTagName()
-        4. Crie uma função que corrija o texto da tag <h1>.
         5. Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
         6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
@@ -66,8 +65,17 @@
         function changeBackgroundColorCenterContent(color) {
           document.getElementsByClassName('center-content')[0].style.backgroundColor = color;
         }
+
+        // 4. Crie uma função que corrija o texto da tag <h1>.
+
+        function changeTitle(text) {
+          document.getElementsByTagName('h1')[0].innerText = text;
+        }  
+
+        changeText();
         changeBackgroundColorMainContent('rgb(76,164,109)')
         changeBackgroundColorCenterContent('white');
+        changeTitle('Exercício 5.1 - JavaScript');
     </script>
   </body>
 </html>
